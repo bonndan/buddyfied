@@ -3,7 +3,7 @@
 * define an environment variable named HOST which contains the address of the target system
 
 ```
-docker run -e HOST=myhost.net -e SUDO_PASSWORD=test123 buddified/maintenance
+docker run -e HOST=myhost.net -e SUDO_PASSWORD=test123 bonndan/buddyfied:maintenance
 ```
 
 References:
