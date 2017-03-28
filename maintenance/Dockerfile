@@ -1,4 +1,4 @@
-FROM williamyeh/ansible:debian8-onbuild
+FROM williamyeh/ansible:1.9-debian8-onbuild
 
 COPY playbook.yml /
 
