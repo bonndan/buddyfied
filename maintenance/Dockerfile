@@ -1,4 +1,4 @@
-FROM williamyeh/ansible:alpine3
+FROM williamyeh/ansible:debian8-onbuild
 
 COPY playbook.yml /
 
